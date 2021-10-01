@@ -7,7 +7,7 @@ import { NextArrow, PrevArrow } from "./Arrows.component";
 const HeroCarousel = () => {
     const settingsLG = {
     arrows: true,
-    autoplay: true,
+    dots: true,
     centerMode: true,
     centerPadding: "300px",
     slidesToShow: 1,
@@ -65,4 +65,4 @@ const HeroCarousel = () => {
   );
 };
 
-export default HeroCarousal;
+export default HeroCarousel;
