@@ -4,7 +4,7 @@ import HeroSlider from "react-slick";
 // Compoenent
 import { NextArrow, PrevArrow } from "./Arrows.component";
 
-const HeroCarousal = () => {
+const HeroCarousel = () => {
     const settingsLG = {
     arrows: true,
     autoplay: true,
