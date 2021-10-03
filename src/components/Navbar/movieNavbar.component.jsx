@@ -5,7 +5,7 @@ import {
   BiMenu,
   BiChevronDown,
   BiShareAlt,
-} from "react-icons/bi"; 
+} from "react-icons/bi";
 
 // Context
 import { MovieContext } from "../../context/movie.context";
@@ -16,7 +16,7 @@ const NavSm = () => {
     <>
       <div className="text-white flex items-center justify-between">
         <div>
-        <h3 className="text-xl font-bold">{movie.original_title}</h3>
+          <h3 className="text-xl font-bold">{movie.original_title}</h3>
         </div>
         <div className="w-8 h-8">
           <BiShareAlt className="w-full h-full" />

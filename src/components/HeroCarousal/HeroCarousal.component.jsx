@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import HeroSlider from "react-slick";
 import axios from "axios";
 
-// Component
+// Compoenent
 import { NextArrow, PrevArrow } from "./Arrows.component";
 
-const HeroCarousel = () => {
+const HeroCarousal = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
@@ -17,9 +17,9 @@ const HeroCarousel = () => {
     requestNowPlayingMovies();
   }, []);
 
-    const settingsLG = {
+  const settingsLG = {
     arrows: true,
-    dots: true,
+    autoplay: true,
     centerMode: true,
     centerPadding: "300px",
     slidesToShow: 1,
@@ -31,7 +31,6 @@ const HeroCarousel = () => {
 
   const settings = {
     arrows: true,
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -73,4 +72,4 @@ const HeroCarousel = () => {
   );
 };
 
-export default HeroCarousel;
+export default HeroCarousal;
